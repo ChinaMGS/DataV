@@ -17,83 +17,6 @@ module.exports = {
       //     '^/api/yifd': ''
       //   }
       // }
-      // '/api/yifd': {
-      //   target: 'http://192.168.10.143:8200', // 🐰🐰🐰🐰🐰🐰
-      //   changeOrigin: true,
-      //   pathRewrite: {
-      //     '^/api/yifd': ''
-      //   }
-      // },
-      //  '/api/yifd': {
-      //   target: 'http://192.168.11.100:8200', // 黑熊精
-      //   changeOrigin: true,
-      //   pathRewrite: {
-      //     '^/api/yifd': ''
-      //   }
-      // },
-      // '/api/yifd': {
-      //   target: 'http://192.168.11.59:8200', // 老大
-      //   changeOrigin: true,
-      //   pathRewrite: {
-      //     '^/api/yifd': ''
-      //   }
-      // },
-      // '/api/yifd': {
-      //   target: 'http://192.168.11.31:8200', // 人参果
-      //   changeOrigin: true,
-      //   pathRewrite: {
-      //     '^/api/yifd': ''
-      //   }
-      // },
-      // '/api/yifd': {
-      // target: 'http://97ahzp.natappfree.cc', // 二郎神
-      //   changeOrigin: true,
-      //   pathRewrite: {
-      //     '^/api/yifd': ''
-      //   }
-      // },
-      // '/api/yifd': {
-      //   target: 'http://192.168.11.186:8200', // 🐷🐷🐷🐷🐷🐷
-      //   changeOrigin: true,
-      //   pathRewrite: {
-      //     '^/api/yifd': ''
-      //   }
-      // },
-      // '/api/yifd': {
-      //   target: 'http://rjktg2.natappfree.cc', // 葫芦娃
-      //   changeOrigin: true,
-      //   pathRewrite: {
-      //     '^/api/yifd': ''
-      //   }
-      // }
-      // '/api/yifd': {
-      //   target: 'http://192.168.11.100', //  🐻
-      //   changeOrigin: true,
-      //   pathRewrite: {
-      //     '^/api/yifd': ''
-      //   }
-      // },
-      "/api/yifd": {
-        target: "http://121.40.115.212:8001", // 开发
-        changeOrigin: true,
-        pathRewrite: {
-          "^/api/yifd": ""
-        }
-      },
-      // "/api/yifd": {
-      //   target: "http://121.40.115.212:8001", // 开发
-      //   changeOrigin: true,
-      //   pathRewrite: {
-      //     "^/api/yifd": ""
-      //   }
-      // }
-      // "/api/yifd": {
-      //   target: "http://121.40.185.31:8001", // 测试
-      //   changeOrigin: true,
-      //   pathRewrite: {
-      //     "^/api/yifd": ""
-      //   }
-      // }
     },
     // Various Dev Server settings
     host: '127.0.0.1', // can be overwritten by process.env.HOST
@@ -120,10 +43,10 @@ module.exports = {
 
   build: {
     // Template for index.html
-    index: path.resolve(__dirname, '../dist/index.html'),
+    index: path.resolve(__dirname, '../docs/index.html'),
 
     // Paths
-    assetsRoot: path.resolve(__dirname, '../dist'),
+    assetsRoot: path.resolve(__dirname, '../docs'),
     assetsSubDirectory: 'public',
     assetsPublicPath: './',
 
