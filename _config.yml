@@ -1,0 +1,4 @@
+deploy:
+  type: git
+  repo: git@github.com:chinamgs/chinamgs.github.io.get
+  branch: master
